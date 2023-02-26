@@ -39,8 +39,30 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
+  // Example
+  //   {
+  // 		"tag_name": "Rap music"
+  // }
+
+  try {
+    const tagId = await Tag.update(
+      {
+        // All the fields you can update and the data attached to the request body.
+        tag_name: req.body.tag_name,
+      },
+      {
+        // Gets the tag based on the id given in the request parameters
+        where: {
+          id: req.params.id,
+        },
+      }
+    );
+    res.status(200).json(tagId);
+  } catch (err) {
+    res.status(404).json({ message: 'No tag found with this id!' });
+  }
 });
 
 router.delete('/:id', async (req, res) => {
