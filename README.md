@@ -2,10 +2,15 @@
 ![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## User Story
-AS A manager at an internet retail company I want a back end for e-commerce website that uses the latest technologies. So that my company can compete with other e-commerce companies
+AS a manager at an internet retail company I want a back end for e-commerce website that uses the latest technologies. So that my company can compete with other e-commerce companies
 
 ## Description
-* This is a command-line application, which allows user to view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role. This app helps the user to keep track of their employee records.
+* Note: You will need Insomnia Core to check the results of the api routes
+* This is a functional Express.js API. User will login using their own sql username and password to the env file. Then login to mysql and run the schema file. To seed the database, you will run "npm run seed".
+
+* Start the server by running "npm run watch".
+
+* When the user opens the API GET routes in Insomnia Core for categories, products, or tags, the data for each of these routes is displayed in a formatted JSON. When the user uses the API POST, PUT, and DELETE routes in Insomnia Core the user will successfully create, update, and delete data in the database.
 
 
 ## Table of Contents
@@ -41,7 +46,7 @@ AS A manager at an internet retail company I want a back end for e-commerce webs
 
 
 # Screenshot
-![Final Website](assets/image/ecommerce-back-end.png)
+![Screenshot](assets/images/ecommerce-back-end.png)
 ## Repo
 https://github.com/johnxlai/ecommerce-back-end
 ## WalkThrough Video
