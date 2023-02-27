@@ -54,10 +54,6 @@ https://drive.google.com/file/d/1C44gFf2sO2jV4oR0d-8h5hM0MwM11uvS/view
 
 
 
-
-
-
-
 ## Acceptance Criteria
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
