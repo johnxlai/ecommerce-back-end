@@ -50,19 +50,4 @@ AS a manager at an internet retail company I want a back end for e-commerce webs
 ## Repo
 https://github.com/johnxlai/ecommerce-back-end
 ## WalkThrough Video
-https://drive.google.com/file/d/1C44gFf2sO2jV4oR0d-8h5hM0MwM11uvS/view
-
-
-
-## Acceptance Criteria
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+https://drive.google.com/file/d/12D88DOl_d6vjTMbGkkMtJogqd5Qu3mlk/view
